@@ -1,0 +1,125 @@
+{
+  "@@locale": "zh",
+  "appTitle": "终端",
+  "remoteTerminal": "远程终端",
+  "addSession": "添加会话",
+  "refresh": "刷新",
+  "savedHosts": "主机列表",
+  "savedHostsHint": "点击已保存的服务器，即可在手机上打开远程终端。",
+  "addHost": "添加主机",
+  "newConnection": "新建连接",
+  "editConnection": "编辑连接",
+  "name": "名称",
+  "nameHint": "生产服务器",
+  "host": "主机",
+  "hostHint": "example.com",
+  "username": "用户名",
+  "port": "端口",
+  "password": "密码",
+  "privateKey": "私钥",
+  "privateKeyHint": "-----BEGIN OPENSSH PRIVATE KEY-----",
+  "cancel": "取消",
+  "save": "保存",
+  "enterConnectionName": "请输入连接名称",
+  "enterHost": "请输入主机地址",
+  "enterUsername": "请输入用户名",
+  "enterValidPort": "1-65535",
+  "pastePrivateKey": "请粘贴私钥",
+  "passwordLogin": "密码登录",
+  "privateKeyLogin": "私钥登录",
+  "connect": "连接",
+  "test": "测试",
+  "edit": "编辑",
+  "setAsDefault": "设为默认",
+  "removeDefault": "取消默认",
+  "delete": "删除",
+  "more": "更多",
+  "defaultBadge": "默认",
+  "deleteConnection": "删除连接",
+  "deleteConnectionPrompt": "要从本机删除“{name}”吗？",
+  "@deleteConnectionPrompt": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "testingAddress": "正在测试 {host}:{port} ...",
+  "@testingAddress": {
+    "placeholders": {
+      "host": {},
+      "port": {}
+    }
+  },
+  "portReachable": "端口可达",
+  "portUnreachable": "端口不可达",
+  "files": "文件",
+  "sftpFiles": "SFTP 文件",
+  "remoteFiles": "远程文件",
+  "loadingFiles": "正在加载文件...",
+  "showHiddenFiles": "显示隐藏文件",
+  "hideHiddenFiles": "隐藏隐藏文件",
+  "emptyFolder": "这个文件夹是空的",
+  "folderUp": "上级目录",
+  "download": "下载",
+  "uploadFile": "上传文件",
+  "newFolder": "新建文件夹",
+  "deleteRemote": "删除",
+  "deleteRemotePrompt": "要删除远程服务器上的“{name}”吗？",
+  "@deleteRemotePrompt": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "createFolderPrompt": "文件夹名称",
+  "createFolderHint": "new-folder",
+  "create": "创建",
+  "downloadedTo": "已下载到 {path}",
+  "@downloadedTo": {
+    "placeholders": {
+      "path": {}
+    }
+  },
+  "uploadedFile": "已上传 {name}",
+  "@uploadedFile": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "createdFolder": "文件夹已创建",
+  "deletedRemote": "已删除",
+  "pickFileFailed": "无法选择本地文件",
+  "downloadFailed": "下载失败",
+  "uploadFailed": "上传失败",
+  "sftpConnectFailed": "无法打开 SFTP 连接",
+  "ok": "确定",
+  "noSavedHosts": "还没有已保存主机",
+  "noSavedHostsHint": "创建一个 SSH 配置后，就可以在安卓手机上连接远程终端。",
+  "createConnection": "创建连接",
+  "specialKeys": "特殊按键",
+  "copyOutput": "复制输出",
+  "clearScreen": "清屏",
+  "copyLogs": "复制日志",
+  "disconnect": "断开连接",
+  "connectingProgress": "连接中...",
+  "connectionFailed": "连接失败",
+  "retry": "重试",
+  "back": "返回",
+  "terminalOutputCopied": "已复制终端输出",
+  "terminalCleared": "终端已清空",
+  "connectionLogsCopied": "已复制连接日志",
+  "statusConnected": "已连接",
+  "statusConnecting": "连接中",
+  "statusAuthenticating": "认证中",
+  "statusError": "连接错误",
+  "statusDisconnected": "已断开",
+  "connectionLogs": "连接日志",
+  "noLogsYet": "暂无日志",
+  "logLineCount": "{count} 条日志",
+  "@logLineCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "waitingForConnectionLogs": "等待连接日志..."
+}

@@ -1,0 +1,125 @@
+{
+  "@@locale": "en",
+  "appTitle": "Terminal",
+  "remoteTerminal": "Remote Terminal",
+  "addSession": "Add session",
+  "refresh": "Refresh",
+  "savedHosts": "Saved Hosts",
+  "savedHostsHint": "Tap any saved server to open a shell from your phone.",
+  "addHost": "Add Host",
+  "newConnection": "New Connection",
+  "editConnection": "Edit Connection",
+  "name": "Name",
+  "nameHint": "Production Server",
+  "host": "Host",
+  "hostHint": "example.com",
+  "username": "Username",
+  "port": "Port",
+  "password": "Password",
+  "privateKey": "Private Key",
+  "privateKeyHint": "-----BEGIN OPENSSH PRIVATE KEY-----",
+  "cancel": "Cancel",
+  "save": "Save",
+  "enterConnectionName": "Enter a connection name",
+  "enterHost": "Enter a host",
+  "enterUsername": "Enter a username",
+  "enterValidPort": "1-65535",
+  "pastePrivateKey": "Paste your private key",
+  "passwordLogin": "Password login",
+  "privateKeyLogin": "Private key login",
+  "connect": "Connect",
+  "test": "Test",
+  "edit": "Edit",
+  "setAsDefault": "Set as Default",
+  "removeDefault": "Remove Default",
+  "delete": "Delete",
+  "more": "More",
+  "defaultBadge": "Default",
+  "deleteConnection": "Delete Connection",
+  "deleteConnectionPrompt": "Delete \"{name}\" from this device?",
+  "@deleteConnectionPrompt": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "testingAddress": "Testing {host}:{port} ...",
+  "@testingAddress": {
+    "placeholders": {
+      "host": {},
+      "port": {}
+    }
+  },
+  "portReachable": "Port Reachable",
+  "portUnreachable": "Port Unreachable",
+  "files": "Files",
+  "sftpFiles": "SFTP Files",
+  "remoteFiles": "Remote files",
+  "loadingFiles": "Loading files...",
+  "showHiddenFiles": "Show hidden files",
+  "hideHiddenFiles": "Hide hidden files",
+  "emptyFolder": "This folder is empty",
+  "folderUp": "Parent folder",
+  "download": "Download",
+  "uploadFile": "Upload file",
+  "newFolder": "New folder",
+  "deleteRemote": "Delete",
+  "deleteRemotePrompt": "Delete \"{name}\" on the remote server?",
+  "@deleteRemotePrompt": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "createFolderPrompt": "Folder name",
+  "createFolderHint": "new-folder",
+  "create": "Create",
+  "downloadedTo": "Downloaded to {path}",
+  "@downloadedTo": {
+    "placeholders": {
+      "path": {}
+    }
+  },
+  "uploadedFile": "Uploaded {name}",
+  "@uploadedFile": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "createdFolder": "Created folder",
+  "deletedRemote": "Deleted",
+  "pickFileFailed": "Unable to pick a local file",
+  "downloadFailed": "Download failed",
+  "uploadFailed": "Upload failed",
+  "sftpConnectFailed": "Unable to open SFTP connection",
+  "ok": "OK",
+  "noSavedHosts": "No saved hosts yet",
+  "noSavedHostsHint": "Create an SSH profile and connect to your remote shell from Android.",
+  "createConnection": "Create Connection",
+  "specialKeys": "Special keys",
+  "copyOutput": "Copy output",
+  "clearScreen": "Clear screen",
+  "copyLogs": "Copy logs",
+  "disconnect": "Disconnect",
+  "connectingProgress": "Connecting...",
+  "connectionFailed": "Connection Failed",
+  "retry": "Retry",
+  "back": "Back",
+  "terminalOutputCopied": "Terminal output copied",
+  "terminalCleared": "Terminal cleared",
+  "connectionLogsCopied": "Connection logs copied",
+  "statusConnected": "Connected",
+  "statusConnecting": "Connecting",
+  "statusAuthenticating": "Authenticating",
+  "statusError": "Connection error",
+  "statusDisconnected": "Disconnected",
+  "connectionLogs": "Connection Logs",
+  "noLogsYet": "No logs yet",
+  "logLineCount": "{count} log lines",
+  "@logLineCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "waitingForConnectionLogs": "Waiting for connection logs..."
+}
