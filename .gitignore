@@ -45,6 +45,7 @@ app.*.map.json
 
 # Build artifacts (APK, IPA, etc.)
 *.apk
+!releases/*.apk
 *.aab
 *.ipa
 *.dSYM
